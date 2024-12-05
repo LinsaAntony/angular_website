@@ -22,7 +22,7 @@ export class AppComponent {
   private datePipe = inject(DatePipe);
   private http = inject(HttpClient);
 
-  private weatherApiKey = 'eb6ba48846916a1b144bb0b606e5e12b'; // Replace with OpenWeatherMap API key
+  private weatherApiKey = 'YOUR API KEY'; // Replace with OpenWeatherMap API key
   private weatherApiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Toronto,ca&units=metric&appid=${this.weatherApiKey}`;
 
   constructor() {
